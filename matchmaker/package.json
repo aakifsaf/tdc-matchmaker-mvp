@@ -1,0 +1,12 @@
+{
+  "name": "tdc-matchmaker-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TDC Matchmaker Algo and Dashboard MVP",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
