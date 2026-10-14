@@ -16,9 +16,7 @@
     "express": "^4.21.2",
     "groq-sdk": "^0.15.0",
     "openai": "^4.86.1",
-    "uuid": "^11.1.0"
-  },
-  "devDependencies": {
+    "uuid": "^11.1.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.9",
