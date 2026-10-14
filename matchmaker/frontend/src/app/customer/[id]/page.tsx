@@ -258,8 +258,8 @@ export default function CustomerDetailPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
 
         {/* Hero Banner */}
-        <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
-          <div className="h-1.5 bg-gradient-to-r from-rose-500 via-rose-400 to-amber-400" />
+        <div className="bg-white rounded-2xl border border-slate-200 shadow-sm relative z-20">
+          <div className="h-1.5 bg-gradient-to-r from-rose-500 via-rose-400 to-amber-400 rounded-t-2xl" />
           <div className="p-6">
             <div className="flex flex-col sm:flex-row sm:items-start gap-5">
               {/* Photo */}
@@ -304,7 +304,7 @@ export default function CustomerDetailPage() {
                       <ChevronDown className="h-3.5 w-3.5" />
                     </button>
                     {showStatusDropdown && (
-                      <div className="absolute right-0 top-full mt-1 z-20 bg-white border border-slate-200 rounded-xl shadow-lg py-1 w-44">
+                      <div className="absolute right-0 top-full mt-1 z-50 bg-white border border-slate-200 rounded-xl shadow-xl py-1 w-44">
                         {ALL_STATUSES.map(s => {
                           const cfg = getStatusConfig(s);
                           return (
